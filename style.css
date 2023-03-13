@@ -7,8 +7,10 @@
 
 
   .body-bg{
-    background-image: linear-gradient(to right, #002853, #040C18);
+    background-image: linear-gradient(to bottom right,  #002853 ,#040C18, #040C18  );
     
+    
+
 }
 .s1{
     color: #FFFFFF;
@@ -76,8 +78,9 @@ border-radius: 5px;
 .btn1{
     outline: none;
     border: none;
-width: 400px;
-height: 63px;
+/* width: 400px; */
+/* height: 63px; */
+padding: 15px 117px;
 left: 0px;
 text-align: center;
 background: #052D56;
@@ -87,8 +90,9 @@ border-radius: 5px;
     outline: none;
     border: none;
     position: absolute;
-width: 164px;
-height: 63px;
+/* width: 164px;
+height: 63px; */
+padding: 15px 20px;
 left: 390px;
 background: #FF4820;
 border-radius: 5px;
@@ -148,7 +152,7 @@ border-radius: 5px;
     font-family: 'Manrope';
     font-weight: 800;
     font-size: 30px;
-    line-height: 45px;
+    /* line-height: 45px; */
     background-image: linear-gradient(to right, purple, orange);
     background-clip: text;
     -webkit-background-clip: text;
@@ -273,7 +277,7 @@ background-color: #093468;
  
 
 
-@media only screen and (max-width: 900px)  and (min-width: 300px) {
+@media screen and (max-width: 650px) {
     .head-image{
         width: 100%;
         margin-top: 27%;
@@ -283,12 +287,19 @@ background-color: #093468;
         text-align: center;
        
     }
-    .btn1{
-        width: 164px !important;
+    .btn-page{
+        padding: 0;
+    }
+    .btn22{
+        width: 70px;
+    }
+    .btn21{
+        margin-left: 0%;
     }
     .btn2{
-        margin-left: 3% !important;
+        /* margin-left: 3% !important; */
         display: none;
+        
     }
     .qweer{
         width: 100%;
@@ -320,8 +331,84 @@ background-color: #093468;
     .seki{
         height: 500.16px !important;
     }
+   
 
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .head-image{
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .img-line{
+        margin-top: 3%;
+    }
+    .section-step{
+        height: 90vh;
+    }
+    .section-step p{
+        padding: 10px 10px;
+        margin-top: 0%;
+        margin-bottom: auto;
+    }
+    .asa, .ima{
+        padding: 10px;
+    }
+    .page-2{
+        text-align: center;
+        padding: 0%;
+    }
+    .img-width{
+        width: 70%;
+        margin-left: 10%;
+    }
+    .page-1{
+        margin-top: 10%;
+        text-align: center;
+    }
+    .paggy, .page-4, .page-3{
+        text-align: center;
+    }
+    .btn-spar{
+        margin-top: 0%;
+        
+    }
+    .section-spar{
+        text-align: center;
+    }
+    .container{
+        max-width: 600px;
+    }
+    .alone{
+        text-align: center;
+        font-size: 30px !important;
+    }
+    .seki, .sek-img{
+        width: 70% !important;
+    }
+    .fot-tab{
+        text-align: center;
+    }
+    .scity{
+        display: flex;
+    }
+    
+    /* .linebreak{
+        display: none;
+    } */
+
+    .line-break{
+        display: none
+    }
+    /* linebreak{   
+      display: none;
+    } */
+    
+    
+}
+/* @media screen and (min-width: 1024px) and (max-width: 1400px)  */
 .alone{
     
     font-size: 43px;
@@ -340,9 +427,6 @@ background-color: #093468;
 height: 705.16px;
 width: 100%;
 
-}
-.fot-tab{
-    background-color: #040C18;
 }
 
 
@@ -383,5 +467,17 @@ width: 100%;
     font-weight: 800;
     font-size: 30px;
     margin-left: 8%;
+}
+.ada{
+    color: #fff;  
+}
+.lasty{
+    list-style: none !important;
+    color: #fff;
+    text-align: left;
+}
+.list {
+    margin-top: 5%;
+    
 }
 
