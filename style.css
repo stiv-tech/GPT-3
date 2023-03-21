@@ -35,8 +35,9 @@
 width: 152px;
 height: 58px;
 margin-left: 8%;
-
-
+outline: none;
+border: 0;
+box-shadow: none;
 background: #FF4820;
 border-radius: 5px;
 }
@@ -424,7 +425,7 @@ background-color: #093468;
 
 
 .seki{
-height: 705.16px;
+height: 708.16px;
 width: 100%;
 
 }
