@@ -332,7 +332,19 @@ background-color: #093468;
     .seki{
         height: 500.16px !important;
     }
-   
+    .footer-para{
+        font-size: 30px !important;
+    }
+    .footie{
+        font-size: 10px;
+    }
+    .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.3%;
+      }
 
 }
 
@@ -406,10 +418,79 @@ background-color: #093468;
     /* linebreak{   
       display: none;
     } */
-    
+    .footer-para{
+        font-size: 30px !important;
+    }
+    .footie{
+        font-size: 10px;
+    }
+      .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.3%;
+      }
     
 }
-/* @media screen and (min-width: 1024px) and (max-width: 1400px)  */
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .head-image{
+        width: 100%;
+    }
+    .head-item{
+        font-size: 30px;
+    }
+    .para-item{
+        font-size: 15px;
+    }
+    .navbar{ 
+        font-size: 13px;
+    }
+    .btn1{
+        padding: 12px 80px;
+    }
+    .btn2{
+        padding: 12px 20px;
+        left: 300px;
+    }
+    .stephn{
+        margin-top: 10%;
+    }
+    .qweer{
+        margin-top: 10%;
+    }
+    .section-step{
+        height: 100%;
+    }
+    .line-break{
+        display: none
+    }
+    .paggy{
+        font-size: 20px;
+    }
+    .page-4, .page-1, .page-3{
+        font-size: 13px;
+    }
+    .alone{
+        text-align: center;
+    }
+    .seki{
+        height: 590px !important ;
+    }
+    .footer-para{
+        font-size: 30px !important;
+    }
+    .footie{
+        font-size: 10px;
+    }
+    .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.3%;
+      }
+}
 .alone{
     
     font-size: 43px;
