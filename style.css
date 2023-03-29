@@ -275,14 +275,36 @@ background-color: #093468;
    border: none;
 }
        
- 
+.topman{
+    margin-top: 5%;
+}
 
 
 @media screen and (max-width: 650px) {
     .head-image{
         width: 100%;
-        margin-top: 27%;
+        margin-top: 20%;
     } 
+   .topman{
+    margin-top: 3%;
+   }
+   .para-item{
+    font-size: 18px;
+   }
+   .stephn{
+    margin-top: auto;
+   }
+    .head-item{
+        font-size: 40px;
+    }
+    .head-item br {
+        display: none;
+    }
+
+    .para-item br{
+        display: none;
+
+    }
     .sttp{
         display: block;
         text-align: center;
